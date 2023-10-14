@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-slate-900 font-body px-5 text-white;
+    }
+    .movie-list .swiper-slide {
+        width: 300px;
+        height: auto;
+    }
+    .nagination .selected {
+        @apply text-primary;
+    }
+}
+@layer components {
+}
